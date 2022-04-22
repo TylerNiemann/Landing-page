@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex: auto;
+}
+.placeholder{
+    width: 200px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+.middle{
+    display: flex;
+    gap: 20px;
+    flex: auto;
+}
+.quote-section{
+    display: flex;
+    flex: auto;
+}
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+}
