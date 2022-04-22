@@ -53,10 +53,16 @@ ul{
 }
 .call-to-action{
     display: flex;
+    align-self: center;
     align-items: center;
     justify-content: center;
     gap: 20px;
     flex: 1 1 auto;
+    background-color: #3882F6;
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px;
+    border-radius: 10px;
 }
 .footer{
     text-align: center;
@@ -105,7 +111,13 @@ li{
 }
 button{
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
     border-radius: 5px;
     border-color: #3882F6;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.signup{
+    border-color: #F9FAF8;
 }
