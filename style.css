@@ -142,3 +142,10 @@ button{
     border: 5px solid blue;
     border-radius: 10px;
 }
+.call-left{
+    color: #F9FAF8;
+}
+.call-title{
+    font-weight: 700;
+    font-size: 20px;
+}
